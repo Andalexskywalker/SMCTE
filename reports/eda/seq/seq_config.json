@@ -1,0 +1,50 @@
+{
+  "recommended_seq_len": 21,
+  "time_bin_edges": [
+    -0.1498081018518518,
+    0.6101134537037038,
+    1.260895388888889,
+    1.9202317893518521,
+    2.6028585277777783,
+    3.297623755787037,
+    4.002163909722222,
+    4.720247756944445,
+    5.450838129629632,
+    6.186792376157411,
+    6.993832407407408
+  ],
+  "seq_features": [
+    "azimuth",
+    "c_j2k_inc",
+    "relative_velocity_n",
+    "relative_velocity_t",
+    "c_j2k_sma",
+    "event_id",
+    "t_j2k_inc",
+    "c_h_per",
+    "c_h_apo",
+    "t_j2k_sma",
+    "c_cd_area_over_mass",
+    "c_sedr",
+    "c_j2k_ecc",
+    "c_cr_area_over_mass",
+    "relative_speed",
+    "geocentric_latitude",
+    "t_h_per",
+    "t_h_apo",
+    "c_sigma_n",
+    "c_sigma_ndot"
+  ],
+  "seq_bins": 10,
+  "seq_length_stats": {
+    "count": 13154.0,
+    "mean": 12.363843697734529,
+    "std": 7.512551367145066,
+    "min": 1.0,
+    "50%": 13.0,
+    "75%": 20.0,
+    "90%": 21.0,
+    "95%": 21.0,
+    "max": 23.0
+  }
+}

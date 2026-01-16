@@ -1,0 +1,31 @@
+{
+  "selected_by": "PR-AUC (val)",
+  "models": [
+    {
+      "rank": 1,
+      "model": "bilstm",
+      "path": "models_seq/top1_bilstm.keras",
+      "thr_opt": 0.23042665421962738,
+      "pr_auc": 0.29266912291631175,
+      "f2": 0.5003335557038026
+    },
+    {
+      "rank": 2,
+      "model": "bigru",
+      "path": "models_seq/top2_bigru.keras",
+      "thr_opt": 0.40140867233276367,
+      "pr_auc": 0.2791344901062127,
+      "f2": 0.5088495575221239
+    },
+    {
+      "rank": 3,
+      "model": "gru",
+      "path": "models_seq/top3_gru.keras",
+      "thr_opt": 0.3219427466392517,
+      "pr_auc": 0.2760561102455128,
+      "f2": 0.5023132848645075
+    }
+  ],
+  "artifacts": "reports/seq_models_quick/artifacts",
+  "baseline_csv": "reports/seq_models_quick/baseline_results.csv"
+}

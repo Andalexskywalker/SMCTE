@@ -1,0 +1,43 @@
+{
+  "n_rows": 162634,
+  "n_cols": 96,
+  "n_numeric": 95,
+  "n_categorical": 1,
+  "row_pos_ratio": 0.06261298375493439,
+  "event_pos_ratio": 0.1501444427550555,
+  "threshold": -6.0,
+  "leaks_removed": [
+    "max_risk_estimate",
+    "max_risk_scaling",
+    "t_time_lastob_start",
+    "t_time_lastob_end",
+    "t_rcs_estimate",
+    "c_time_lastob_start",
+    "c_time_lastob_end",
+    "c_rcs_estimate"
+  ],
+  "topk_violin": 20,
+  "pareto_80pct_cols": 1,
+  "artifacts": {
+    "figs": [
+      "risk_overview.png",
+      "balance_row.png",
+      "balance_event.png",
+      "violin_grid_topk.png",
+      "corr/heatmap_top.png",
+      "missing_pareto_top30.png",
+      "risk_trajectories_examples.png",
+      "seq/len_hist.png",
+      "seq/coverage_heatmap.png"
+    ],
+    "tables": [
+      "dtypes_count.csv",
+      "missing_top30.csv",
+      "class_balance_row.csv",
+      "class_balance_event.csv",
+      "mutual_info_all.csv",
+      "univariate_auc.csv",
+      "seq/coverage_bins.csv"
+    ]
+  }
+}
