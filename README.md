@@ -1,7 +1,7 @@
 # Sistema de Monitorização e Colisão entre Tráfego Espacial (SMCTE)
 
 **Autores:** André Ramos & Vitor Esteves  
-**Contexto:** Projeto Final de Curso / Dissertação de Mestrado
+**Contexto:** Projeto Final de Curso (Licenciatura em Engenharia Informática, IPCB)
 
 ![Status do Projeto](https://img.shields.io/badge/Status-Concluído-success)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
